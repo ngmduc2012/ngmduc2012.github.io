@@ -32,12 +32,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵr": function() { return /* binding */ NgOptionComponent; },
 /* harmony export */   "ɵs": function() { return /* binding */ ConsoleService; }
 /* harmony export */ });
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ 5587);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ 42578);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper */ 72454);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray */ 66581);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 31112);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 41998);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ 5587);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ 42578);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper */ 72454);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray */ 66581);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 31112);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 41998);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 37716);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/forms */ 3679);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs/operators */ 46782);
@@ -524,13 +524,13 @@ function isFunction(value) {
 
 var NgItemLabelDirective = /*#__PURE__*/function () {
   function NgItemLabelDirective(element) {
-    (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgItemLabelDirective);
+    (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgItemLabelDirective);
 
     this.element = element;
     this.escape = true;
   }
 
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(NgItemLabelDirective, [{
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(NgItemLabelDirective, [{
     key: "ngOnChanges",
     value: function ngOnChanges(changes) {
       this.element.nativeElement.innerHTML = this.escape ? escapeHTML(this.ngItemLabel) : this.ngItemLabel;
@@ -589,8 +589,8 @@ NgItemLabelDirective.propDecorators = {
   });
 })();
 
-var NgOptionTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgOptionTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgOptionTemplateDirective);
+var NgOptionTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgOptionTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgOptionTemplateDirective);
 
   this.template = template;
 });
@@ -623,8 +623,8 @@ NgOptionTemplateDirective.ctorParameters = function () {
   }, null);
 })();
 
-var NgOptgroupTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgOptgroupTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgOptgroupTemplateDirective);
+var NgOptgroupTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgOptgroupTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgOptgroupTemplateDirective);
 
   this.template = template;
 });
@@ -657,8 +657,8 @@ NgOptgroupTemplateDirective.ctorParameters = function () {
   }, null);
 })();
 
-var NgLabelTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgLabelTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgLabelTemplateDirective);
+var NgLabelTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgLabelTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgLabelTemplateDirective);
 
   this.template = template;
 });
@@ -691,8 +691,8 @@ NgLabelTemplateDirective.ctorParameters = function () {
   }, null);
 })();
 
-var NgMultiLabelTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgMultiLabelTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgMultiLabelTemplateDirective);
+var NgMultiLabelTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgMultiLabelTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgMultiLabelTemplateDirective);
 
   this.template = template;
 });
@@ -725,8 +725,8 @@ NgMultiLabelTemplateDirective.ctorParameters = function () {
   }, null);
 })();
 
-var NgHeaderTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgHeaderTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgHeaderTemplateDirective);
+var NgHeaderTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgHeaderTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgHeaderTemplateDirective);
 
   this.template = template;
 });
@@ -759,8 +759,8 @@ NgHeaderTemplateDirective.ctorParameters = function () {
   }, null);
 })();
 
-var NgFooterTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgFooterTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgFooterTemplateDirective);
+var NgFooterTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgFooterTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgFooterTemplateDirective);
 
   this.template = template;
 });
@@ -793,8 +793,8 @@ NgFooterTemplateDirective.ctorParameters = function () {
   }, null);
 })();
 
-var NgNotFoundTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgNotFoundTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgNotFoundTemplateDirective);
+var NgNotFoundTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgNotFoundTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgNotFoundTemplateDirective);
 
   this.template = template;
 });
@@ -827,8 +827,8 @@ NgNotFoundTemplateDirective.ctorParameters = function () {
   }, null);
 })();
 
-var NgTypeToSearchTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgTypeToSearchTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgTypeToSearchTemplateDirective);
+var NgTypeToSearchTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgTypeToSearchTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgTypeToSearchTemplateDirective);
 
   this.template = template;
 });
@@ -861,8 +861,8 @@ NgTypeToSearchTemplateDirective.ctorParameters = function () {
   }, null);
 })();
 
-var NgLoadingTextTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgLoadingTextTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgLoadingTextTemplateDirective);
+var NgLoadingTextTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgLoadingTextTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgLoadingTextTemplateDirective);
 
   this.template = template;
 });
@@ -895,8 +895,8 @@ NgLoadingTextTemplateDirective.ctorParameters = function () {
   }, null);
 })();
 
-var NgTagTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgTagTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgTagTemplateDirective);
+var NgTagTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgTagTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgTagTemplateDirective);
 
   this.template = template;
 });
@@ -929,8 +929,8 @@ NgTagTemplateDirective.ctorParameters = function () {
   }, null);
 })();
 
-var NgLoadingSpinnerTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgLoadingSpinnerTemplateDirective(template) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgLoadingSpinnerTemplateDirective);
+var NgLoadingSpinnerTemplateDirective = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgLoadingSpinnerTemplateDirective(template) {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgLoadingSpinnerTemplateDirective);
 
   this.template = template;
 });
@@ -965,10 +965,10 @@ NgLoadingSpinnerTemplateDirective.ctorParameters = function () {
 
 var ConsoleService = /*#__PURE__*/function () {
   function ConsoleService() {
-    (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, ConsoleService);
+    (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, ConsoleService);
   }
 
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(ConsoleService, [{
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(ConsoleService, [{
     key: "warn",
     value: function warn(message) {
       console.warn(message);
@@ -1860,7 +1860,7 @@ function stripSpecialChars(text) {
 
 var ItemsList = /*#__PURE__*/function () {
   function ItemsList(_ngSelect, _selectionModel) {
-    (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, ItemsList);
+    (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, ItemsList);
 
     this._ngSelect = _ngSelect;
     this._selectionModel = _selectionModel;
@@ -1869,7 +1869,7 @@ var ItemsList = /*#__PURE__*/function () {
     this._markedIndex = -1;
   }
 
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(ItemsList, [{
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(ItemsList, [{
     key: "items",
     get: function get() {
       return this._items;
@@ -1937,7 +1937,7 @@ var ItemsList = /*#__PURE__*/function () {
         this._groups.set(undefined, this._items);
       }
 
-      this._filteredItems = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(this._items);
+      this._filteredItems = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(this._items);
     }
   }, {
     key: "select",
@@ -2051,7 +2051,7 @@ var ItemsList = /*#__PURE__*/function () {
         var key = _Array$from[_i];
         var matchedItems = [];
 
-        var _iterator = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(this._groups.get(key)),
+        var _iterator = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(this._groups.get(key)),
             _step;
 
         try {
@@ -2079,7 +2079,7 @@ var ItemsList = /*#__PURE__*/function () {
             var _this3$_filteredItems;
 
             var _matchedItems$slice = matchedItems.slice(-1),
-                _matchedItems$slice2 = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__.default)(_matchedItems$slice, 1),
+                _matchedItems$slice2 = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__.default)(_matchedItems$slice, 1),
                 last = _matchedItems$slice2[0];
 
             if (last.parent) {
@@ -2191,7 +2191,7 @@ var ItemsList = /*#__PURE__*/function () {
 
       var multiple = this._ngSelect.multiple;
 
-      var _iterator2 = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(this.selectedItems),
+      var _iterator2 = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(this.selectedItems),
           _step2;
 
       try {
@@ -2232,7 +2232,7 @@ var ItemsList = /*#__PURE__*/function () {
           this._filteredItems.push(parent);
         }
       } else if (item.children) {
-        var _iterator3 = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(item.children),
+        var _iterator3 = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(item.children),
             _step3;
 
         try {
@@ -2249,7 +2249,7 @@ var ItemsList = /*#__PURE__*/function () {
         }
       }
 
-      this._filteredItems = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(this._filteredItems.sort(function (a, b) {
+      this._filteredItems = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(this._filteredItems.sort(function (a, b) {
         return a.index - b.index;
       }));
     }
@@ -2338,7 +2338,7 @@ var ItemsList = /*#__PURE__*/function () {
 
 
       if (Array.isArray(items[0].value[prop])) {
-        var _iterator4 = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(items),
+        var _iterator4 = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(items),
             _step4;
 
         try {
@@ -2366,7 +2366,7 @@ var ItemsList = /*#__PURE__*/function () {
       }; // Group items by key.
 
 
-      var _iterator5 = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(items),
+      var _iterator5 = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(items),
           _step5;
 
       try {
@@ -2403,7 +2403,7 @@ var ItemsList = /*#__PURE__*/function () {
 
         if (key === undefined) {
           var withoutGroup = groups.get(undefined) || [];
-          items.push.apply(items, (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(withoutGroup.map(function (x) {
+          items.push.apply(items, (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(withoutGroup.map(function (x) {
             x.index = i++;
             return x;
           })));
@@ -2426,7 +2426,7 @@ var ItemsList = /*#__PURE__*/function () {
             return key.value;
           }
 
-          return (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)({}, groupKey, key);
+          return (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)({}, groupKey, key);
         };
 
         var children = groups.get(key).map(function (x) {
@@ -2440,7 +2440,7 @@ var ItemsList = /*#__PURE__*/function () {
           return x.value;
         }));
         items.push(parent);
-        items.push.apply(items, (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(children));
+        items.push.apply(items, (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(children));
       };
 
       for (var _i2 = 0, _Array$from2 = Array.from(groups.keys()); _i2 < _Array$from2.length; _i2++) {
@@ -2470,7 +2470,7 @@ var KeyCode;
 
 var NgDropdownPanelService = /*#__PURE__*/function () {
   function NgDropdownPanelService() {
-    (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgDropdownPanelService);
+    (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgDropdownPanelService);
 
     this._dimensions = {
       itemHeight: 0,
@@ -2479,7 +2479,7 @@ var NgDropdownPanelService = /*#__PURE__*/function () {
     };
   }
 
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(NgDropdownPanelService, [{
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(NgDropdownPanelService, [{
     key: "dimensions",
     get: function get() {
       return this._dimensions;
@@ -2568,7 +2568,7 @@ var SCROLL_SCHEDULER = typeof requestAnimationFrame !== 'undefined' ? rxjs__WEBP
 
 var NgDropdownPanelComponent = /*#__PURE__*/function () {
   function NgDropdownPanelComponent(_renderer, _zone, _panelService, _elementRef, _document) {
-    (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgDropdownPanelComponent);
+    (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgDropdownPanelComponent);
 
     this._renderer = _renderer;
     this._zone = _zone;
@@ -2589,7 +2589,7 @@ var NgDropdownPanelComponent = /*#__PURE__*/function () {
     this._dropdown = _elementRef.nativeElement;
   }
 
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(NgDropdownPanelComponent, [{
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(NgDropdownPanelComponent, [{
     key: "currentPosition",
     get: function get() {
       return this._currentPosition;
@@ -2919,7 +2919,7 @@ var NgDropdownPanelComponent = /*#__PURE__*/function () {
         return Promise.resolve(this._panelService.dimensions);
       }
 
-      var _this$items = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__.default)(this.items, 1),
+      var _this$items = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__.default)(this.items, 1),
           first = _this$items[0];
 
       this.update.emit([first]);
@@ -3290,14 +3290,14 @@ NgDropdownPanelComponent.propDecorators = {
 
 var NgOptionComponent = /*#__PURE__*/function () {
   function NgOptionComponent(elementRef) {
-    (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgOptionComponent);
+    (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgOptionComponent);
 
     this.elementRef = elementRef;
     this.stateChange$ = new rxjs__WEBPACK_IMPORTED_MODULE_9__.Subject();
     this._disabled = false;
   }
 
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(NgOptionComponent, [{
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(NgOptionComponent, [{
     key: "disabled",
     get: function get() {
       return this._disabled;
@@ -3409,8 +3409,8 @@ NgOptionComponent.propDecorators = {
   });
 })();
 
-var NgSelectConfig = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgSelectConfig() {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgSelectConfig);
+var NgSelectConfig = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgSelectConfig() {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgSelectConfig);
 
   this.notFoundText = 'No items found';
   this.typeToSearchText = 'Type to search';
@@ -3451,7 +3451,7 @@ var NgSelectComponent = /*#__PURE__*/function () {
   function NgSelectComponent(classes, autoFocus, config, newSelectionModel, _elementRef, _cd, _console) {
     var _this15 = this;
 
-    (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgSelectComponent);
+    (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgSelectComponent);
 
     this.classes = classes;
     this.autoFocus = autoFocus;
@@ -3535,7 +3535,7 @@ var NgSelectComponent = /*#__PURE__*/function () {
     this.element = _elementRef.nativeElement;
   }
 
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(NgSelectComponent, [{
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(NgSelectComponent, [{
     key: "items",
     get: function get() {
       return this._items;
@@ -3925,7 +3925,7 @@ var NgSelectComponent = /*#__PURE__*/function () {
       if (isFunction(this.addTag)) {
         tag = this.addTag(this.searchTerm);
       } else {
-        tag = this._primitive ? this.searchTerm : (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)({}, this.bindLabel, this.searchTerm);
+        tag = this._primitive ? this.searchTerm : (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)({}, this.bindLabel, this.searchTerm);
       }
 
       var handleTag = function handleTag(item) {
@@ -4114,7 +4114,7 @@ var NgSelectComponent = /*#__PURE__*/function () {
 
       var handleOptionChange = function handleOptionChange() {
         var changedOrDestroyed = (0,rxjs__WEBPACK_IMPORTED_MODULE_13__.merge)(_this17.ngOptions.changes, _this17._destroy$);
-        rxjs__WEBPACK_IMPORTED_MODULE_13__.merge.apply(void 0, (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(_this17.ngOptions.map(function (option) {
+        rxjs__WEBPACK_IMPORTED_MODULE_13__.merge.apply(void 0, (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(_this17.ngOptions.map(function (option) {
           return option.stateChange$;
         }))).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_11__.takeUntil)(changedOrDestroyed)).subscribe(function (option) {
           var item = _this17.itemsList.findItem(option.value);
@@ -4188,7 +4188,7 @@ var NgSelectComponent = /*#__PURE__*/function () {
           } else if (_this19.bindValue) {
             var _item2;
 
-            item = (_item2 = {}, (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)(_item2, _this19.bindLabel, null), (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)(_item2, _this19.bindValue, val), _item2);
+            item = (_item2 = {}, (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)(_item2, _this19.bindLabel, null), (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)(_item2, _this19.bindValue, val), _item2);
 
             _this19.itemsList.select(_this19.itemsList.mapItem(item, null));
           }
@@ -4257,7 +4257,7 @@ var NgSelectComponent = /*#__PURE__*/function () {
     value: function _updateNgModel() {
       var model = [];
 
-      var _iterator6 = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(this.selectedItems),
+      var _iterator6 = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(this.selectedItems),
           _step6;
 
       try {
@@ -5365,12 +5365,12 @@ function DefaultSelectionModelFactory() {
 
 var DefaultSelectionModel = /*#__PURE__*/function () {
   function DefaultSelectionModel() {
-    (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, DefaultSelectionModel);
+    (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, DefaultSelectionModel);
 
     this._selected = [];
   }
 
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(DefaultSelectionModel, [{
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(DefaultSelectionModel, [{
     key: "value",
     get: function get() {
       return this._selected;
@@ -5397,11 +5397,11 @@ var DefaultSelectionModel = /*#__PURE__*/function () {
           this._removeChildren(item);
 
           if (groupAsModel && this._activeChildren(item)) {
-            this._selected = [].concat((0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(this._selected.filter(function (x) {
+            this._selected = [].concat((0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(this._selected.filter(function (x) {
               return x.parent !== item;
             })), [item]);
           } else {
-            this._selected = [].concat((0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(this._selected), (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(item.children.filter(function (x) {
+            this._selected = [].concat((0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(this._selected), (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(item.children.filter(function (x) {
               return !x.disabled;
             })));
           }
@@ -5426,7 +5426,7 @@ var DefaultSelectionModel = /*#__PURE__*/function () {
 
           this._removeChildren(item.parent);
 
-          (_this$_selected = this._selected).push.apply(_this$_selected, (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(children.filter(function (x) {
+          (_this$_selected = this._selected).push.apply(_this$_selected, (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(children.filter(function (x) {
             return x !== item && !x.disabled;
           })));
 
@@ -5448,7 +5448,7 @@ var DefaultSelectionModel = /*#__PURE__*/function () {
   }, {
     key: "_setChildrenSelectedState",
     value: function _setChildrenSelectedState(children, selected) {
-      var _iterator7 = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(children),
+      var _iterator7 = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_2__.default)(children),
           _step7;
 
       try {
@@ -5472,9 +5472,9 @@ var DefaultSelectionModel = /*#__PURE__*/function () {
   }, {
     key: "_removeChildren",
     value: function _removeChildren(parent) {
-      this._selected = [].concat((0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(this._selected.filter(function (x) {
+      this._selected = [].concat((0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(this._selected.filter(function (x) {
         return x.parent !== parent;
-      })), (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(parent.children.filter(function (x) {
+      })), (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_3__.default)(parent.children.filter(function (x) {
         return x.parent === parent && x.disabled && x.selected;
       })));
     }
@@ -5499,8 +5499,8 @@ var DefaultSelectionModel = /*#__PURE__*/function () {
 
 var ɵ0 = DefaultSelectionModelFactory;
 
-var NgSelectModule = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgSelectModule() {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgSelectModule);
+var NgSelectModule = /*#__PURE__*/(0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_5__.default)(function NgSelectModule() {
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__.default)(this, NgSelectModule);
 });
 
 NgSelectModule.ɵfac = function NgSelectModule_Factory(t) {
@@ -5570,12 +5570,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AnimationFrameAction": function() { return /* binding */ AnimationFrameAction; }
 /* harmony export */ });
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 31112);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 41998);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/get */ 27078);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ 43620);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ 28784);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ 84999);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 31112);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 41998);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/get */ 27078);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ 43620);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ 28784);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ 84999);
 /* harmony import */ var _AsyncAction__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./AsyncAction */ 401);
 
 
@@ -5585,14 +5585,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AnimationFrameAction = /*#__PURE__*/function (_AsyncAction) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__.default)(AnimationFrameAction, _AsyncAction);
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__.default)(AnimationFrameAction, _AsyncAction);
 
-  var _super = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__.default)(AnimationFrameAction);
+  var _super = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__.default)(AnimationFrameAction);
 
   function AnimationFrameAction(scheduler, work) {
     var _this;
 
-    (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__.default)(this, AnimationFrameAction);
+    (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__.default)(this, AnimationFrameAction);
 
     _this = _super.call(this, scheduler, work);
     _this.scheduler = scheduler;
@@ -5600,13 +5600,13 @@ var AnimationFrameAction = /*#__PURE__*/function (_AsyncAction) {
     return _this;
   }
 
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__.default)(AnimationFrameAction, [{
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__.default)(AnimationFrameAction, [{
     key: "requestAsyncId",
     value: function requestAsyncId(scheduler, id) {
       var delay = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
 
       if (delay !== null && delay > 0) {
-        return (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__.default)((0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__.default)(AnimationFrameAction.prototype), "requestAsyncId", this).call(this, scheduler, id, delay);
+        return (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__.default)((0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__.default)(AnimationFrameAction.prototype), "requestAsyncId", this).call(this, scheduler, id, delay);
       }
 
       scheduler.actions.push(this);
@@ -5620,7 +5620,7 @@ var AnimationFrameAction = /*#__PURE__*/function (_AsyncAction) {
       var delay = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
 
       if (delay !== null && delay > 0 || delay === null && this.delay > 0) {
-        return (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__.default)((0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__.default)(AnimationFrameAction.prototype), "recycleAsyncId", this).call(this, scheduler, id, delay);
+        return (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_get__WEBPACK_IMPORTED_MODULE_2__.default)((0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__.default)(AnimationFrameAction.prototype), "recycleAsyncId", this).call(this, scheduler, id, delay);
       }
 
       if (scheduler.actions.length === 0) {
@@ -5648,10 +5648,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AnimationFrameScheduler": function() { return /* binding */ AnimationFrameScheduler; }
 /* harmony export */ });
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 31112);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 41998);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ 28784);
-/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ 84999);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 31112);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 41998);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ 28784);
+/* harmony import */ var _Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ 84999);
 /* harmony import */ var _AsyncScheduler__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./AsyncScheduler */ 4548);
 
 
@@ -5659,17 +5659,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AnimationFrameScheduler = /*#__PURE__*/function (_AsyncScheduler) {
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__.default)(AnimationFrameScheduler, _AsyncScheduler);
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__.default)(AnimationFrameScheduler, _AsyncScheduler);
 
-  var _super = (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__.default)(AnimationFrameScheduler);
+  var _super = (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__.default)(AnimationFrameScheduler);
 
   function AnimationFrameScheduler() {
-    (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__.default)(this, AnimationFrameScheduler);
+    (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__.default)(this, AnimationFrameScheduler);
 
     return _super.apply(this, arguments);
   }
 
-  (0,_Users_nguyenminhduc_Desktop_Projects_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__.default)(AnimationFrameScheduler, [{
+  (0,_Users_nguyenminhduc_Desktop_Projects_Web_ngmduc2012_github_io_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__.default)(AnimationFrameScheduler, [{
     key: "flush",
     value: function flush(action) {
       this.active = true;

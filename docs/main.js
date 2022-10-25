@@ -3606,17 +3606,17 @@ var coreConfig = {
         appLanguage: 'en', // App Default Language (en, fr, de, pt etc..)
     },
     layout: {
-        skin: 'default',
+        skin: 'dark',
         type: 'vertical',
         animation: 'fadeIn',
         menu: {
             hidden: false,
-            collapsed: false, // Boolean: true, false
+            collapsed: true, // Boolean: true, false
         },
         // ? For horizontal menu, navbar type will work for navMenu type
         navbar: {
             hidden: false,
-            type: 'floating-nav',
+            type: 'navbar-static-top',
             background: 'navbar-light',
             customBackgroundColor: true,
             backgroundColor: '' // BS color i.e bg-primary, bg-success
@@ -3629,7 +3629,7 @@ var coreConfig = {
             backgroundColor: '' // BS color i.e bg-primary, bg-success
         },
         enableLocalStorage: true,
-        customizer: false,
+        customizer: true,
         scrollTop: false,
         buyNow: false // Boolean: true, false (Set false in real project, For demo purpose only)
     }
@@ -3717,7 +3717,6 @@ function AppComponent_core_sidebar_2_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵproperty"]("invisibleOverlay", true);
     _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵclassMap"]("spinner");
     _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵproperty"]("data-feather", "settings");
 } }
 var AppComponent = /** @class */ (function () {
@@ -3907,7 +3906,7 @@ var AppComponent = /** @class */ (function () {
     AppComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 3, vars: 3, consts: [[4, "ngIf"], ["name", "themeCustomizer", "class", "customizer d-none d-md-block", 3, "invisibleOverlay", 4, "ngIf"], ["name", "themeCustomizer", 1, "customizer", "d-none", "d-md-block", 3, "invisibleOverlay"], [1, "customizer-toggle", "d-flex", "align-items-center", "justify-content-center", 3, "click"], [3, "data-feather"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵtemplate"](0, AppComponent_ng_container_0_Template, 2, 0, "ng-container", 0);
             _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵtemplate"](1, AppComponent_ng_container_1_Template, 2, 0, "ng-container", 0);
-            _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵtemplate"](2, AppComponent_core_sidebar_2_Template, 4, 4, "core-sidebar", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵtemplate"](2, AppComponent_core_sidebar_2_Template, 4, 2, "core-sidebar", 1);
         } if (rf & 2) {
             _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵproperty"]("ngIf", ctx.coreConfig.layout.type === "vertical");
             _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵadvance"](1);

@@ -3752,7 +3752,7 @@ var AppComponent = /** @class */ (function () {
         // Set the main menu as our current menu
         this._coreMenuService.setCurrentMenu('main');
         // Add languages to the translation service
-        this._translateService.addLangs(['en', 'fr', 'de', 'pt']);
+        this._translateService.addLangs(['en', 'vi']);
         // This language will be used as a fallback when a translation isn't found in the current language
         this._translateService.setDefaultLang('en');
         // Set the translations for the menu
@@ -6481,17 +6481,9 @@ var NavbarComponent = /** @class */ (function () {
                 title: 'English',
                 flag: 'us'
             },
-            fr: {
-                title: 'French',
-                flag: 'fr'
-            },
-            de: {
-                title: 'German',
-                flag: 'de'
-            },
-            pt: {
-                title: 'Portuguese',
-                flag: 'pt'
+            vi: {
+                title: 'Việt Nam',
+                flag: 'vn'
             }
         };
         // Set the private defaults
@@ -7185,7 +7177,7 @@ var VerticalLayoutModule = /** @class */ (function () {
 
 /***/ 71550:
 /*!*********************************************!*\
-  !*** ./src/app/main/home/home.component.ts ***!
+  !*** ./src/app/main/home/info.component.ts ***!
   \*********************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -7208,13 +7200,13 @@ var HomeComponent = /** @class */ (function () {
      */
     HomeComponent.prototype.ngOnInit = function () {
         this.contentHeader = {
-            headerTitle: 'Home',
+            headerTitle: 'Info',
             actionButton: true,
             breadcrumb: {
                 type: '',
                 links: [
                     {
-                        name: 'Home',
+                        name: 'Info',
                         isLink: true,
                         link: '/'
                     },
@@ -7271,7 +7263,7 @@ var HomeComponent = /** @class */ (function () {
 
 /***/ 81762:
 /*!******************************************!*\
-  !*** ./src/app/main/home/home.module.ts ***!
+  !*** ./src/app/main/home/info.module.ts ***!
   \******************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 

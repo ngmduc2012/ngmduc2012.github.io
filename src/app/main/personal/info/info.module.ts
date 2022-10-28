@@ -5,21 +5,21 @@ import { TranslateModule } from '@ngx-translate/core';
 import { CoreCommonModule } from '@core/common.module';
 
 import { ContentHeaderModule } from 'app/layout/components/content-header/content-header.module';
-import {HomeComponent} from "./home.component";
+import {InfoComponent} from "./info.component";
 
 
 const routes = [
 
   {
-    path: 'home',
-    component: HomeComponent,
-    data: { animation: 'home' }
+    path: 'info',
+    component: InfoComponent,
+    data: { animation: 'info' }
   }
 ];
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [InfoComponent],
   imports: [RouterModule.forChild(routes), ContentHeaderModule, TranslateModule, CoreCommonModule],
-  exports: [ HomeComponent]
+  exports: [ InfoComponent]
 })
-export class HomeModule {}
+export class InfoModule {}

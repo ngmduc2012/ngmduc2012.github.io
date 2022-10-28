@@ -17,8 +17,10 @@ import { coreConfig } from 'app/app-config';
 
 import { AppComponent } from 'app/app.component';
 import { LayoutModule } from 'app/layout/layout.module';
-import { SampleModule } from 'app/main/sample/sample.module';
-import {HomeModule} from "./main/home/home.module";
+import { ShareModule } from 'app/main/community/share/share.module';
+import {InfoModule} from "./main/personal/info/info.module";
+import {CvModule} from "./main/personal/cv/cv.module";
+import {DonateModule} from "./main/community/donate/donate.module";
 
 const appRoutes: Routes = [
   {
@@ -27,7 +29,7 @@ const appRoutes: Routes = [
   },
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: '/info',
     pathMatch: 'full'
   },
   {
@@ -60,8 +62,10 @@ const appRoutes: Routes = [
 
     // App modules
     LayoutModule,
-    SampleModule,
-    HomeModule
+    ShareModule,
+    InfoModule,
+    CvModule,
+    DonateModule,
   ],
 
   bootstrap: [AppComponent]

@@ -1,8 +1,8 @@
 export const locale = {
-  lang: 'pt',
+  lang: 'vi',
   data: {
     SAMPLE: {
-      AWESOME: 'Crie incrível 🙌'
+      AWESOME: 'Thật tuyệt vời 🙌'
     }
   }
 }

@@ -1,18 +1,16 @@
 import { Component, OnInit } from '@angular/core'
 
 import { locale as en } from './i18n/en'
-import { locale as fr } from './i18n/fr'
-import { locale as de } from './i18n/de'
-import { locale as pt } from './i18n/pt'
+import { locale as vi } from './i18n/vi'
 
 import { CoreTranslationService } from '@core/services/translation.service'
 
 @Component({
   selector: 'app-sample',
-  templateUrl: './sample.component.html',
-  styleUrls: ['./sample.component.scss']
+  templateUrl: './donate.component.html',
+  styleUrls: ['./donate.component.scss']
 })
-export class SampleComponent implements OnInit {
+export class DonateComponent implements OnInit {
   public contentHeader: object
 
   /**
@@ -20,7 +18,7 @@ export class SampleComponent implements OnInit {
    * @param {CoreTranslationService} _coreTranslationService
    */
   constructor(private _coreTranslationService: CoreTranslationService) {
-    this._coreTranslationService.translate(en, fr, de, pt)
+    this._coreTranslationService.translate(en, vi)
   }
 
   // Lifecycle Hooks

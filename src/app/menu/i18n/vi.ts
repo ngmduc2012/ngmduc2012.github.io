@@ -1,15 +1,15 @@
 export const locale = {
-  lang: 'en',
+  lang: 'vi',
   data: {
     MENU: {
       PERSONAL: {
-        TITLE: 'Personal',
-        INFO: 'Information',
+        TITLE: 'Cá nhân',
+        INFO: 'Giới thiệu',
         CV: 'Cv',
       },
       COMMUNITY:{
-        TITLE: 'Community',
-        SHARE: 'Share',
+        TITLE: 'Cộng đồng',
+        SHARE: 'Chia sẻ',
         DONATE: 'Donate',
       }
     }
